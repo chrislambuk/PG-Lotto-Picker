@@ -1,0 +1,25 @@
+.p0 {
+	margin: 0 !important;
+}
+
+.p2 {
+	padding: 2px !important;
+}
+
+.m0 {
+	margin: 0 !important;
+}
+
+.pt-5 {
+	margin-top: 5px;
+}
+
+.mainBox,
+.bonusBox {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+	font-size: 2.1rem;
+    font-weight: bold;
+    padding: 20px;
+}

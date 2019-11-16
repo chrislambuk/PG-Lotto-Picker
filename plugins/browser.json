@@ -1,0 +1,73 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "co.uk.arqmedia.lottopicker"
+        }
+    }
+}
