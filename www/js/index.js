@@ -73,9 +73,7 @@ function onDeviceReady() {
 			}
 		}
 
-		document.getElementById('bnumber2').innerHTML = numbers[1];
-		document.getElementById('bnumber2').className = 'animated flipInX';
 		document.getElementById('bnumber1').innerHTML = numbers[0];
-		document.getElementById('bnumber1').className = 'animated flipInX';
+		document.getElementById('bnumber2').innerHTML = numbers[1];
 	}
 }

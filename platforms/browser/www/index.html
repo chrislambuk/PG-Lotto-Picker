@@ -19,68 +19,59 @@
 </head>
 
 <body class="blue darken-4">
-    <div>
         <!-- main card -->
-        <div class="row">
-            <div class="col s12 m6 offset-m3">
-                <div class="card">
-                    <nav>
-                        <div class="nav-wrapper blue">
-                            <span class="brand-logo">Euromillions</span>
-                        </div>
-                    </nav>
-                    <!-- first row -->
-                    <div>
-                        <h4 class="center">Main Numbers</h4>
-                        <div class="row">
-                            <div class="col s2 offset-s1">
+        <main>
+            <div class="row">
+                <div class="col s12 m6 offset-m3 ">
+                    <div class="card full-height">
+                        <nav>
+                            <div class="nav-wrapper blue">
+                                <a class="brand-logo">Euromillions</a>
+                            </div>
+                        </nav>
+                        <!-- first row -->
+                        <div>
+                            <h4 class="center">Main Numbers</h4>
+                            <div class="row" id="mains">
                                 <div class="mainBox center" id="number1">?
                                 </div>
-                            </div>
-                            <div class="col s2">
                                 <div class="mainBox center" id="number2">?
                                 </div>
-                            </div>
-                            <div class="col s2">
                                 <div class="mainBox center" id="number3">?
                                 </div>
-                            </div>
-                            <div class="col s2">
                                 <div class="mainBox center" id="number4">?
                                 </div>
-                            </div>
-                            <div class="col s2">
                                 <div class="mainBox center" id="number5">?
                                 </div>
+                            </div>
+    
                         </div>
-                    </div>
-
-                    <!-- second row -->
-
-                    <div class="card-content">
-                        <div class="row">
-                            <h4 class="center">Bonus Numbers</h4>
-                            <div class="col s2 offset-s4">
-                                <div class="red white-text bonusBox" id="bnumber1">?
+                            <!-- second row -->
+    
+                            <div class="card-content">
+                                <div class="row">
+                                    <h4 class="center">Bonus Numbers</h4>
+                                    <div class="col s3 offset-s3">
+                                        <div class="red white-text bonusBox center" id="bnumber1">?
+                                        </div>
+                                    </div>
+                                    <div class="col s3">
+                                        <div class="red white-text bonusBox center" id="bnumber2">?
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col s2">
-                                <div class="red white-text bonusBox" id="bnumber2">?
-                                </div>
+                            <div class="card-action center grey lighten-4">
+                                <button href="#" id="submit" class="btn blue waves-effect mb-5">Generate</button>
                             </div>
-                        </div>
-                    </div>
-                    <div class="card-action center grey lighten-4">
-                        <button href="#" id="submit" class="btn blue waves-effect mb-5">Generate</button>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </main>
 
-    <script type="text/javascript" src="cordova.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
 
 </body>
 
