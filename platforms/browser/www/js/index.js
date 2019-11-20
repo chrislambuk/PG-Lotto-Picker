@@ -5,8 +5,9 @@ function onDeviceReady() {
 	document.getElementById('submit').addEventListener('click', function() {
 		generateBonus(2, 1, 12);
 		generate(5, 1, 50);
+		const box = document.getElementById('number1');
 	});
-
+box.className = "animated bounceInDown"
 	// functions for calculating random numbers
 	// main numbers
 	function generate(size, lowest, highest) {
